@@ -85,8 +85,8 @@ def index(*,page='1'):
     return {
         '__template__': 'blogs.html',
         'page':page,
-        'blogs': blogs,
-        # 'user':True
+        'blogs': blogs
+        
     }
 
 @get('/blog/{id}')
